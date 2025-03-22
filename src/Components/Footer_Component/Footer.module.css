@@ -1,0 +1,27 @@
+.footer{
+    width: 75%;
+    margin: auto;
+    border-top: 1px solid var(--light-color);
+    background-color: var(--light-background);
+    padding: 32px 24px;
+    div{
+        width: 80%px;
+        margin: auto;
+        text-align: center;
+        p{
+            margin: 0;
+        }
+        p:first-child{
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--light-color);
+        }
+        p:last-child{
+            line-height: 24px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--light-color);
+        }
+    }
+}

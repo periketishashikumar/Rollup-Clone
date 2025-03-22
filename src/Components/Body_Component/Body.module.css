@@ -1,0 +1,146 @@
+body{
+    background-color: var(--light-background);
+}
+.main_body{
+    width: 75%;
+    margin: auto;
+    height: 160vh;
+    section:first-child{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        article div img{
+            width: 320px;
+            height: 320px;
+        }
+        article{
+            width: 592px;
+            h1{
+                display: flex;
+                flex-direction: column;
+                height: 30vh;
+                span:first-child{
+                    background: linear-gradient(120deg, hsl(0 100% 60%), hsl(15 100% 60%) 35%, hsl(23 96% 62%) 45%, hsl(0 100% 60%) 65%, hsl(358 58% 47%));
+                    background-clip: text;
+                    color: transparent;
+                }
+                span{
+                    line-height: 64px;
+                    font-size: 56px;
+                    color: var(--light-color);
+                }
+                span:last-child{
+                    color: var(--dark-color);
+                }
+               
+                
+            }
+            p{
+                padding-top: 12px;
+                max-width: 576px;
+                line-height: 32px;
+                font-size: 20px;
+                color: var(--light-color);
+            }
+            aside{
+                display: flex;
+                flex-wrap: wrap;
+                margin: -6px;
+                padding-top: 24px;
+                width: 60%;
+                display: flex;
+                gap: 25px;
+                div{
+                    a{
+                        border-radius: 20px;
+                        padding: 12px 20px;
+                        line-height: 38px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                    
+                }
+                div:first-child{
+                    a{
+                        background-color: #5672CD;
+                        color: #fff;
+                    }
+                    a:hover{
+                        background-color: #4a68cb;
+                    }
+                }
+                div:last-child{
+                    a{
+                        background-color: #EBEBEF;
+                    }
+                    a:hover{
+                        background-color: #dcdce0;
+                    }
+                }
+            }
+        }
+        article:last-child{
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    filter: drop-shadow(0 0 80px red);
+                }
+            }
+        }
+    }
+    section:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 24px;
+        height: 600px;
+        gap: 25px;
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: var(--card-bgcolor);
+            width: 31%;
+            div:first-child{
+                width: 48px;
+                height: 48px;
+                background-color: #bbb;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: x-large;
+                border-radius: 10px;
+            }
+            h2{
+                line-height: 24px;
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--dark-color);
+
+            }
+            p{
+                line-height: 24px;
+                font-size: 14px;
+                font-weight: 500;
+                color: var(--light-color);
+            }
+            div{
+                p{
+                        color: var(--a-light);
+                }
+            }
+        }
+        article{
+            padding-left: 25px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        article:hover{
+            border: 1px solid #a8b1ff;
+        }
+    }
+}
